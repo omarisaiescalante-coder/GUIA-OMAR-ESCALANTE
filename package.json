@@ -11,6 +11,14 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^42.2.0"
-  }
+    "electron": "^42.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarisaiescalante-coder/GUIA-OMAR-ESCALANTE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omarisaiescalante-coder/GUIA-OMAR-ESCALANTE/issues"
+  },
+  "homepage": "https://github.com/omarisaiescalante-coder/GUIA-OMAR-ESCALANTE#readme"
 }
