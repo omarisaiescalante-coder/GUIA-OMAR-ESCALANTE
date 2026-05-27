@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Alumnos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <h1>Bienvenido al Registro de Alumnos</h1>
+    <form id="registroForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="cuenta">Numero de Cuenta:</label>
+        <input type="number" id="cuenta" name="cuenta" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="carrera">Carrera:</label>
+        <input type="text" id="carrera" name="carrera" required>
+
+        <label for="asignatura">Asignatura:</label>
+        <input type="text" id="asignatura" name="asignatura" required>
+
+        <button id="btnMostrar" type="button">Matricular</button>
+    </form>
+
+    <section id="resultado" class="popup oculto">
+        <div class="popup-contenido">
+            <h2>Datos ingresados</h2>
+            <div id="datos"></div>
+            <button id="btnCerrar" type="button">Cerrar</button>
+        </div>
+    </section>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
